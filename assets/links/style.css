@@ -1,0 +1,122 @@
+
+@font-face {
+    font-family: 'bold';
+    src: url(/assets/fonts/HelveticaNeueBold.ttf);
+}
+@font-face {
+    font-family: 'condensed';
+    src: url(/assets/fonts/HelveticaNeue-Condensed.otf);
+}
+@font-face {
+    font-family: 'ivy';
+    src: url(/assets/fonts/ivy-presto-headline.otf);
+}
+
+::-webkit-scrollbar{
+    background-color: rgba(0, 0, 0, 0);
+    color: transparent;
+    width: 1px;
+}
+::-webkit-scrollbar-corner{
+    background-color: transparent;
+    color: transparent;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+    color: transparent;
+}
+body{
+    overflow-x: hidden;
+    background-color: black;
+    font-family: "Roboto", serif;
+}
+#h1{
+    font-family: "bold", serif !important;
+}
+nav{
+    font-family: 'condensed';
+}
+.nav-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .nav-text,
+  .hover-text {
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .nav-text {
+    transform: translateY(0);
+  }
+  
+  .hover-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  
+  .nav-link:hover .nav-text {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  
+  .nav-link:hover .hover-text {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 4px;
+    background-color: rgba(255, 166, 0, 0.562);
+    width: 0;
+    transition: width 0.4s ease, right 0.3s ease;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .nav-link:not(:hover)::after {
+    width: 0;
+    transition: width 0.3s ease-out 0.1s, right 0.4s ease-in;
+  }
+  
+  .nav-sec{
+    right: -36%;
+  }
+  span{
+    display: inline-block;
+  }
+  #section{
+    box-shadow: inset 0px 0px 50px #fca03685;
+    backdrop-filter: 10px;
+  }
+  #rotate span{
+    position: absolute;
+    top: -100px;
+    transform-origin: 0px 100px;
+  }
+  .svg svg{
+    transition: 0.4s;
+  }
+  .svg svg:hover{
+    transform: rotate(12deg);
+  }
+  .experience{
+    background-color: #9AC1CB;
+  }
