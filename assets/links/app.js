@@ -353,7 +353,6 @@ function ExperiencesAnimation(){
             trigger : h1,
             scroller : 'body ',
             scrub : 2,
-            markers : true,
             start : 'top 0%',
             end : 'top -180%',
             pin : true
@@ -361,7 +360,7 @@ function ExperiencesAnimation(){
     })
 }
 splitText();
-// loaderAnimation();
+loaderAnimation();
 offcanvasNavbar();
 videoAnimation();
 textAnimation();
