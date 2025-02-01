@@ -16,13 +16,6 @@ A visually stunning clone of the **We Think Elastic** website, crafted with **HT
 - **JavaScript (ES6+)** – For interactivity and animations.
 - **GSAP (GreenSock Animation Platform)** – For high-performance, smooth animations.
 
-## 🎥 Project Video
-
-<video controls>
-  <source src="" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
 ## 📂 Installation & Setup
 
 1. Clone the repository:
