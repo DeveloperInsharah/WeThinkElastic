@@ -19,7 +19,7 @@ A visually stunning clone of the **We Think Elastic** website, crafted with **HT
 ## 🎥 Project Video
 
 <video controls>
-  <source src="We%20Think%20Elastic.mp4" type="video/mp4">
+  <source src="" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
